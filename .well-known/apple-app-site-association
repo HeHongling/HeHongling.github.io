@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "75FYWDWHL5.cn.sensorsdata.SensorsData",
+                "paths": ["*"]
+            },
+        ]
+    }
+}
