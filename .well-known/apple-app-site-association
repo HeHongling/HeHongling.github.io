@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "9FS8JZB4X6.com.ahtelit.UniversalLink",
+                "paths": ["*"]
+            },
+        ]
+    }
+}
