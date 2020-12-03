@@ -1,11 +1,43 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
-                "appID": "9FS8JZB4X6.com.ahtelit.UniversalLink",
-                "paths": ["*"]
+                "appIDs": [
+                    "75FYWDWHL5:cn.sensorsdata.UniversalLink", 
+                    "75FYWDWHL5:cn.sensorsdata.DeepLink", 
+                    "75FYWDWHL5:cn.sensorsdata.SensorsData"
+                ],
+                "components": [
+                    {
+                        "/": "/sensorsdata/*",
+                        "comment": "只匹配 path 部分以 ‘sensorsdata’ 开头的 URL"
+                    },
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "排除 fragment 为 ‘no_universal_links’ 的 URL"
+                    }
+                ]
             },
+            {
+                "appIDs": [
+                    "9FS8JZB4X6:com.ahtelit.UniversalLink", 
+                    "9FS8JZB4X6:com.ahtelit.DeepLink"
+                ],
+                "components":[
+                    {
+                        "/": "/ahtelit/*",
+                        "comment": "只匹配 path 部分以 ‘ahtelit’ 开头 并且 query 中含有 utm_ 字段的 URL"
+                    },
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "排除 fragment 为 ‘no_universal_links’ 的 URL"
+                    }
+                ]
+
+            }
+            
         ]
     }
 }
