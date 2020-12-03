@@ -3,9 +3,21 @@
         "apps": [],
         "details": [
             {
-                "appID": "9FS8JZB4X6.cn.ahtelit.UniversalLink",
-                "paths": ["*"]
+                "appID": "9FS8JZB4X6.com.ahtelit.UniversalLink",
+                "paths": ["/ahtelit/*"]
             },
+            {
+                "appID": "75FYWDWHL5:cn.sensorsdata.UniversalLink",
+                "paths": ["/sensorsdata/*"]
+            },
+            {
+                "appID": "75FYWDWHL5:cn.sensorsdata.DeepLink",
+                "paths": ["/sensorsdata/*"]
+            },
+            {
+                "appID": "75FYWDWHL5:cn.sensorsdata.SensorsData",
+                "paths": ["/sensorsdata/*"]
+            }
         ]
     }
 }
