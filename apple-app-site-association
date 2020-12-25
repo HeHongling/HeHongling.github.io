@@ -4,20 +4,8 @@
         "details": [
             {
                 "appID": "9FS8JZB4X6.com.ahtelit.UniversalLink",
-                "paths": ["/ahtelit/*"]
+                "paths": ["*"]
             },
-            {
-                "appID": "75FYWDWHL5:cn.sensorsdata.UniversalLink",
-                "paths": ["/sensorsdata/*"]
-            },
-            {
-                "appID": "75FYWDWHL5:cn.sensorsdata.DeepLink",
-                "paths": ["/sensorsdata/*"]
-            },
-            {
-                "appID": "75FYWDWHL5:cn.sensorsdata.SensorsData",
-                "paths": ["/sensorsdata/*"]
-            }
         ]
     }
 }
